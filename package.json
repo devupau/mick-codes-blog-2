@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,6 +16,5 @@
   "devDependencies": {
     "eslint": "8.57.1",
     "eslint-config-next": "15.0.1"
-  },
-  "packageManager": "yarn@4.4.1"
+  }
 }
